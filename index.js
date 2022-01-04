@@ -93,7 +93,7 @@ router.post('/post/delete', function(req, res){
             console.log(obj.ent);
             console.log(result);
             
-            delete result.menu.section[obj.sec].entry[obj.ent];
+            delete result.restaurant_menu.Week_day[obj.sec].meal[obj.ent];
 
             JSONtoXML('DublinRestaurant.xml', result, function(err){
                 if (err) console.log(err);
