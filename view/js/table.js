@@ -22,7 +22,7 @@ function append(){
         url: '/post/json',
         dataType: 'json',
         contentType: 'application/json',
-        data: '{"sec_n": "' + $("#week_day").val() + '", "item":"' + $("#item").val() + '", "price":"' + $("#price").val() + '"}',
+        data: '{"w_day": "' + $("#week_day").val() + '", "item":"' + $("#item").val() + '", "price":"' + $("#price").val() + '"}',
         async: false,
         success: setTimeout(draw_table, 1000)
     });
