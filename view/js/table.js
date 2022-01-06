@@ -1,3 +1,4 @@
+// function which draws the table to display on the website to the user
 function draw_table(){
     $("#results").empty();
     $.getHTMLuncached = function(url) {
@@ -15,7 +16,7 @@ function draw_table(){
     $.getHTMLuncached("/get/html");
 };
 
-
+// function which adds the new entry to the menu
 function append(){
     $.ajax({
         type: "POST",
@@ -24,10 +25,11 @@ function append(){
         contentType: 'application/json',
         data: '{"w_day": "' + $("#week_day").val() + '", "item":"' + $("#item").val() + '", "price":"' + $("#price").val() + '"}',
         async: false,
+        // once the new entry is added, the new table will be drawed with the new entry included
         success: setTimeout(draw_table, 1000)
     });
 };
-
+// function which defines the selected entry to be removed
 function select_row()
 {
     $("#menuTable tbody tr[id]").click(function ()
@@ -40,7 +42,7 @@ function select_row()
     })
 
 };
-
+// function which removes the selected entry
 function delete_row(sec, ent){
     $("#delete").click(function()
     {
@@ -52,12 +54,13 @@ function delete_row(sec, ent){
                 contentType: 'application/json',
                 data: '{"sec": "' + sec + '", "ent": "' + ent + '"}',
                 cache: false,
+                // once the selected entry is removed, the new table will be drawed without the selected entry removed 
                 success: setTimeout(draw_table, 1000)
             }
         )
     })
 };
-
+// displays table
 $(document).ready(function(){
     draw_table();
 });
