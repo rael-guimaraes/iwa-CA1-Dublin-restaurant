@@ -18,12 +18,7 @@
                     </tr>
                     <xsl:for-each select="meal">
                         <tr id="{position()}">
-                            <xsl:attribute name="vegetarian">
-                                <xsl:value-of select="boolean(@vegetarian)" />
-                            </xsl:attribute>
-                            <xsl:attribute name="Special_of_the_day">
-                                <xsl:value-of select="boolean(@Special_of_the_day)" />
-                            </xsl:attribute>
+                
                             <td align="center">
                                 <input name="item0" type="checkbox" />
                             </td>

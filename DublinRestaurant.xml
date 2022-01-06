@@ -9,11 +9,11 @@
       <item>Barbecue</item>
       <price>15.0</price>
     </meal>
-    <meal vegetarian="true">
+    <meal>
       <item>Soup</item>
       <price>8.0</price>
     </meal>
-    <meal Special_of_the_day="true">
+    <meal>
       <item>Pizza</item>
       <price>15.0</price>
     </meal>
@@ -27,11 +27,11 @@
       <item>Fried Chicken</item>
       <price>10.50</price>
     </meal>
-    <meal vegetarian="true">
+    <meal>
       <item>Rice</item>
       <price>8.0</price>
     </meal>
-    <meal Special_of_the_day="true">
+    <meal>
       <item>Barbecue</item>
       <price>15.0</price>
     </meal>
@@ -45,11 +45,11 @@
       <item>Stake</item>
       <price>16.0</price>
     </meal>
-    <meal vegetarian="true">
+    <meal>
       <item>Salad</item>
       <price>8.0</price>
     </meal>
-    <meal Special_of_the_day="true">
+    <meal>
       <item>Lamb</item>
       <price>15.0</price>
     </meal>
@@ -63,11 +63,11 @@
       <item>Soup of the Day</item>
       <price>7.0</price>
     </meal>
-    <meal vegetarian="true">
+    <meal>
       <item>Falafel</item>
       <price>10.50</price>
     </meal>
-    <meal Special_of_the_day="true">
+    <meal>
       <item>Burgers</item>
       <price>15.0</price>
     </meal>
@@ -81,11 +81,11 @@
       <item>Sushi</item>
       <price>15</price>
     </meal>
-    <meal vegetarian="true">
+    <meal>
       <item>Shahshuka</item>
       <price>15.0</price>
     </meal>
-    <meal Special_of_the_day="true">
+    <meal>
       <item>Pork Ribs</item>
       <price>15.0</price>
     </meal>
@@ -99,11 +99,11 @@
       <item>Burger</item>
       <price>10.50</price>
     </meal>
-    <meal vegetarian="true">
+    <meal>
       <item>Vegetarian Burgers</item>
       <price>15.0</price>
     </meal>
-    <meal Special_of_the_day="true">
+    <meal>
       <item>Stew</item>
       <price>15.0</price>
     </meal>
@@ -117,11 +117,11 @@
       <item>Lamb</item>
       <price>13.0</price>
     </meal>
-    <meal vegetarian="true">
+    <meal>
       <item>Salad</item>
       <price>10.0</price>
     </meal>
-    <meal Special_of_the_day="true">
+    <meal>
       <item>Sunday dinner</item>
       <price>15.0</price>
     </meal>
