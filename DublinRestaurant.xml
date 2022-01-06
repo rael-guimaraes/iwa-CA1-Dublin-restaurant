@@ -17,10 +17,6 @@
       <item>Pizza</item>
       <price>15.0</price>
     </meal>
-    <meal>
-      <item>dddd</item>
-      <price>eee</price>
-    </meal>
   </week_day>
   <week_day name="Tuesday">
     <meal>
@@ -92,10 +88,6 @@
     <meal Special_of_the_day="true">
       <item>Pork Ribs</item>
       <price>15.0</price>
-    </meal>
-    <meal>
-      <item>dddd</item>
-      <price>aaa</price>
     </meal>
   </week_day>
   <week_day name="Saturday">
