@@ -1,6 +1,6 @@
 {
   "name": "iwa-ca1-dublin-restaurant",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "IWA CA1 project",
   "main": "index.js",
   "scripts": {
