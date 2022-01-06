@@ -1,129 +1,137 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <restaurant_menu>
-    <week_day name="Monday">
-        <meal>
-            <item>Mashed Potato</item>
-            <price>9.50</price>
-        </meal>
-        <meal>
-            <item>Barbecue</item>
-            <price>15.0</price>
-        </meal>
-        <meal vegetarian="true">
-            <item>Soup</item>
-            <price>8.0</price>
-        </meal>
-        <meal Special_of_the_day ="true">
-            <item>Pizza</item>
-            <price>15.0</price>
-        </meal>
-    </week_day>
-    <week_day name="Tuesday">
-        <meal>
-            <item>Potato Salad</item>
-            <price>8.95</price>
-        </meal>
-        <meal>
-            <item>Fried Chicken</item>
-            <price>10.50</price>
-        </meal>
-        <meal vegetarian="true">
-            <item>Rice</item>
-            <price>8.0</price>
-        </meal>
-        <meal Special_of_the_day="true">
-            <item>Barbecue</item>
-            <price>15.0</price>
-        </meal>
-    </week_day>
-    <week_day name="Wednesday">
-        <meal>
-            <item>Eggs Benedict</item>
-            <price>12.99</price>
-        </meal>
-        <meal>
-            <item>Stake</item>
-            <price>16.0</price>
-        </meal>
-        <meal vegetarian="true">
-            <item>Salad</item>
-            <price>8.0</price>
-        </meal>
-        <meal Special_of_the_day="true">
-            <item>Lamb</item>
-            <price>15.0</price>
-        </meal>
-    </week_day>
-    <week_day name="Thursday">
-        <meal>
-            <item>Grilled Chicken Sadnwich</item>
-            <price>7.50</price>
-        </meal>
-        <meal>
-            <item>Soup of the Day</item>
-            <price>7.0</price>
-        </meal>
-        <meal vegetarian="true">
-            <item>Falafel</item>
-            <price>10.50</price>
-        </meal>
-        <meal Special_of_the_day="true">
-            <item>Burgers</item>
-            <price>15.0</price>
-        </meal>
-    </week_day>
-    <week_day name="Friday">
-        <meal>
-            <item>Ribeye Steak</item>
-            <price>19.99</price>
-        </meal>
-        <meal>
-            <item>Sushi</item>
-            <price>15</price>
-        </meal>
-        <meal vegetarian="true">
-            <item>Shahshuka</item>
-            <price>15.0</price>
-        </meal>
-        <meal Special_of_the_day="true">
-            <item>Pork Ribs</item>
-            <price>15.0</price>
-        </meal>
-    </week_day>
-    <week_day name="Saturday">
-        <meal>
-            <item>Pizza</item>
-            <price>13.99</price>
-        </meal>
-        <meal>
-            <item>Burger</item>
-            <price>10.50</price>
-        </meal>
-        <meal vegetarian="true">
-            <item>Vegetarian Burgers</item>
-            <price>15.0</price>
-        </meal>
-        <meal Special_of_the_day="true">
-            <item>Stew</item>
-            <price>15.0</price>
-        </meal>
-    </week_day>
-    <week_day name="Sunday">
-        <meal>
-            <item>Steak</item>
-            <price>13.99</price>
-        </meal>
-        <meal>
-            <item>Lamb</item>
-            <price>13.0</price>
-        </meal>
-        <meal vegetarian="true">
-            <item>Salad</item>
-            <price>10.0</price>
-        </meal>
-        <meal Special_of_the_day="true">
-            <item>Sunday dinner</item>
-            <price>15.0</price>
-        </meal>
-    </week_day>
+  <week_day name="Monday">
+    <meal>
+      <item>Mashed Potato</item>
+      <price>9.50</price>
+    </meal>
+    <meal>
+      <item>Barbecue</item>
+      <price>15.0</price>
+    </meal>
+    <meal vegetarian="true">
+      <item>Soup</item>
+      <price>8.0</price>
+    </meal>
+    <meal Special_of_the_day="true">
+      <item>Pizza</item>
+      <price>15.0</price>
+    </meal>
+    <meal>
+      <item>dddd</item>
+      <price>eee</price>
+    </meal>
+  </week_day>
+  <week_day name="Tuesday">
+    <meal>
+      <item>Potato Salad</item>
+      <price>8.95</price>
+    </meal>
+    <meal>
+      <item>Fried Chicken</item>
+      <price>10.50</price>
+    </meal>
+    <meal vegetarian="true">
+      <item>Rice</item>
+      <price>8.0</price>
+    </meal>
+    <meal Special_of_the_day="true">
+      <item>Barbecue</item>
+      <price>15.0</price>
+    </meal>
+  </week_day>
+  <week_day name="Wednesday">
+    <meal>
+      <item>Eggs Benedict</item>
+      <price>12.99</price>
+    </meal>
+    <meal>
+      <item>Stake</item>
+      <price>16.0</price>
+    </meal>
+    <meal vegetarian="true">
+      <item>Salad</item>
+      <price>8.0</price>
+    </meal>
+    <meal Special_of_the_day="true">
+      <item>Lamb</item>
+      <price>15.0</price>
+    </meal>
+  </week_day>
+  <week_day name="Thursday">
+    <meal>
+      <item>Grilled Chicken Sadnwich</item>
+      <price>7.50</price>
+    </meal>
+    <meal>
+      <item>Soup of the Day</item>
+      <price>7.0</price>
+    </meal>
+    <meal vegetarian="true">
+      <item>Falafel</item>
+      <price>10.50</price>
+    </meal>
+    <meal Special_of_the_day="true">
+      <item>Burgers</item>
+      <price>15.0</price>
+    </meal>
+  </week_day>
+  <week_day name="Friday">
+    <meal>
+      <item>Ribeye Steak</item>
+      <price>19.99</price>
+    </meal>
+    <meal>
+      <item>Sushi</item>
+      <price>15</price>
+    </meal>
+    <meal vegetarian="true">
+      <item>Shahshuka</item>
+      <price>15.0</price>
+    </meal>
+    <meal Special_of_the_day="true">
+      <item>Pork Ribs</item>
+      <price>15.0</price>
+    </meal>
+    <meal>
+      <item>dddd</item>
+      <price>aaa</price>
+    </meal>
+  </week_day>
+  <week_day name="Saturday">
+    <meal>
+      <item>Pizza</item>
+      <price>13.99</price>
+    </meal>
+    <meal>
+      <item>Burger</item>
+      <price>10.50</price>
+    </meal>
+    <meal vegetarian="true">
+      <item>Vegetarian Burgers</item>
+      <price>15.0</price>
+    </meal>
+    <meal Special_of_the_day="true">
+      <item>Stew</item>
+      <price>15.0</price>
+    </meal>
+  </week_day>
+  <week_day name="Sunday">
+    <meal>
+      <item>Steak</item>
+      <price>13.99</price>
+    </meal>
+    <meal>
+      <item>Lamb</item>
+      <price>13.0</price>
+    </meal>
+    <meal vegetarian="true">
+      <item>Salad</item>
+      <price>10.0</price>
+    </meal>
+    <meal Special_of_the_day="true">
+      <item>Sunday dinner</item>
+      <price>15.0</price>
+    </meal>
+  </week_day>
 </restaurant_menu>

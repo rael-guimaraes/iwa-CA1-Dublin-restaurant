@@ -60,7 +60,7 @@ router.post('/post/json', function(req, res) {
         XMLtoJSON('DublinRestaurant.xml', function (err, result){
             if (err) throw (err);
 
-            result.restaurant_menu.week_day[w_day].meal.push({'item': obj.item, 'price': obj.price});
+            result.restaurant_menu.week_day[obj.w_day].meal.push({'item': obj.item, 'price': obj.price});
 
             console.log(JSON.stringify(result, null, " "));
 
